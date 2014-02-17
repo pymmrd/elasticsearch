@@ -9,5 +9,14 @@ II. 安装ElasticSearch
     wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz
     tar -xvzf elasticsearch-1.0.0.tar.gz
 
-II. 安装head 插件
+III. 安装head 插件
     ./path/to/elasticsearch-1.0.0/bin/plugin  --install mobz/elasticsearch-head
+
+IV. 安装elasticsearch servicewrapper
+    git clone https://github.com/elasticsearch/elasticsearch-servicewrapper
+    cp elasticsearch-servicewrapper/service /path/to/elasticsearch/bin -R
+
+    启动elasticsearch
+    /path/to/elasticsearch/service/elasticsearch start
+
+
