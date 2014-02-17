@@ -1,0 +1,13 @@
+I. 安装java
+   1. 打开 http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=ocomen
+   2. 下载JDK
+   3. 解压缩JDK包
+     tar -xvzf jdk-7u51-linux-x64.tar.gz
+     sudo ln -s  /path/to/jdk/bin/* /usr/bin
+
+II. 安装ElasticSearch
+    wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz
+    tar -xvzf elasticsearch-1.0.0.tar.gz
+
+II. 安装head 插件
+    ./path/to/elasticsearch-1.0.0/bin/plugin  --install mobz/elasticsearch-head
